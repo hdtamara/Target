@@ -33,7 +33,7 @@ ul{
 }
 li{
     list-style: none;
-    margin: 0.8rem;
+    margin: 0.2rem;
     font-size: 2rem;
     
 }
@@ -42,8 +42,13 @@ nav li a{
     text-decoration: none;
     color: black;
 }
-    
+ nav li a:hover{
+     color: red;
+ }
 
+ nav li a::after{
+    content: "|";
+ }
 h1{
     font-size: 3rem;
  
@@ -63,7 +68,7 @@ h1{
     background-color: black;
     border:gray outset ;
     margin: 1.6rem;
-   border-radius: 20rem;
+   border-radius: 1rem;
     padding: 1.6rem;
    display: flex;
    flex-direction: column;
@@ -84,5 +89,6 @@ h1{
     color: white;
     text-align: justify;
     padding: 1.6rem;
+    font-size: 1.4rem;
     
 }
