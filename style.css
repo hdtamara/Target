@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.header-container{
+    width: 100vw;
+    height: 10vh;
+    background-color: royalblue;
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+    
+   
+}
+
+.logoImg{
+    width: 30px;
+    height: 5vh;
+    margin: 1rem;
+}
+
+ul{
+    display: flex;
+    
+}
+li{
+    list-style: none;
+    margin: 0.8rem;
+    font-size: 2rem;
+    
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+    
+
+h1{
+    font-size: 3rem;
+ 
+}
+
+
