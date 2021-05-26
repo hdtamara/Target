@@ -49,18 +49,40 @@ nav li a{
  nav li a::after{
     content: "|";
  }
-h1{
+.namePrincipal{
     font-size: 3rem;
  
 }
 
+.historyContent{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1.6rem;
+    text-align: justify;  
+    font-size: 1.6rem; 
+    margin: 1rem;
+}
+hr{
+    width: 100%;
+}
+.target{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    margin: 1rem;
+}
 .container{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    
+    margin: 1rem;
+    padding: 1.6rem;
 }
+
 .boxex{
     width: 20rem;
     height: 30rem;
