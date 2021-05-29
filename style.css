@@ -30,8 +30,7 @@ html{
 }
 
 .logoImg img{
-    width: 60px;
-    height: 60px;
+    width: 100%;
     max-width: 60px;
     
 }
@@ -71,7 +70,7 @@ main{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding: 1.6rem;
+    padding: 2rem;
     text-align: justify;  
     font-size: 1.6rem; 
     
@@ -149,9 +148,9 @@ footer img{
     height: 100%;
     
 }
- .twitter, .imstagran ,.facebook{
-    width: 15%;
-    height: 40%;
+ .twitter, .instagram ,.facebook{
+    width: 100%;
+ 
     max-width: 40px;
     border-radius: 20rem;
     
